@@ -341,7 +341,6 @@ Prediction : 0.34 	Correct : 1.00
 Prediction : 0.35 	Correct : 0.00
 ```
 
-하지만 이는 학습의 문제이며, 충분히 많은 횟수의 반복학습을 통해 정확도를 개선 할 수 있을 것이다. 예제 프로젝트에는 [pre_trained/ex02_pretrained_weights.json](https://github.com/ivorycirrus/dl4vanillajs-node-example/blob/master/pre_trained/ex02_pretrained_weights.json)에 미리 학습한 가중치의 초기값이 포함되어 있으며, `FILE_PRE_TRAINED` 변수에 해당 파일명을 지정해주면 임의의 초기값이 아닌 미리 학습된 초기값을 사용할 수 있다. 사전학습된 가중치는 `0.005`가량의 작은 오차를 내는 가중치이며, 물론 이를 초기값으로 2001에포크만큼 추가학습하면 오차가 더 줄어드는 것을 볼 수 있다. 
 However, this is a matter of learning speed, and accuracy can be improved through a sufficient number of iterations. The example project contains pre-trained coefficients on [pre_trained/ex02_pretrained_weights.json](https://github.com/ivorycirrus/dl4vanillajs-node-example/blob/master/pre_trained/ex02_pretrained_weights.json). If you put the file name in the `FILE_PRE_TRAINED` variable, you can use the pre-trained initial value instead of arbitary initial value. The pre-trained cofficients contains weight that gives a small error of about `0.005`. Of course, we can see that the error is further reduced by additional trainings.
 
 ```
