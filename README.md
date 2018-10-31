@@ -1,37 +1,14 @@
-## Welcome to GitHub Pages
+# IvoryCirrus'Lab
 
-You can use the [editor on GitHub](https://github.com/ivorycirrus/en/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+This is source repository for blog.<br>
+Please visit this url. [https://ivorycirrus.github.io/](https://ivorycirrus.github.io/)
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+## Site Arch.
+* Blog engine : [Jekyll](https://jekyllrb.com/)
+* Blog theme : [jekyll-theme-EasyBook](http://laobubu.net/donate.html)
+* Profile management : [Gravatar](https://ko.gravatar.com/)
+* Comment service : [Disqus](https://disqus.com/)
 
-### Markdown
+## License
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/ivorycirrus/en/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+[CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/)

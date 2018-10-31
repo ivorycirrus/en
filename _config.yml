@@ -1,1 +1,37 @@
-theme: jekyll-theme-minimal
+# Site settings
+title: IvoryCirrus's Lab.
+url: "http://ivorycirrus.github.io"    # the protocol and hostname of your site, eg. `http://laobubu.github.io`
+baseurl: "" # the prefix of your site uri, eg. `/jekyll-theme-EasyBook` or just one slash `/`
+#timezone: Asia/Chongqing
+description: > 
+  A blog for S/W development topics.
+
+# Your information
+email: ivorycirrus@gmail.com
+author: Pilmo Kang
+avatar: "https://ko.gravatar.com/userimage/41336920/052b8db7b4a551e5f3c2d30466717261.jpeg?d=mm&size=135"
+profile: A delightful programmer.
+#twitter_username: twitter_username
+github_username:  ivorycirrus
+
+# Comment Service (Disqus or 多说)
+#  choose one and un-comment the line to active it
+disqus_shortname: ivorycirrus   # get one: https://disqus.com/admin/signup/
+#duoshuo_shortname: xxx  # get one: http://duoshuo.com/create-site/
+
+permalink: /archivers/:title
+gems:
+ - jekyll-paginate
+ - jekyll-gist
+ - jemoji
+
+# Build settings
+paginate: 5
+paginate_path: "page:num"
+
+highlighter: rouge
+markdown: kramdown
+
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge

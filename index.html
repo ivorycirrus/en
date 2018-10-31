@@ -1,0 +1,51 @@
+---
+layout: default
+lang: "en"
+lang_default: "en"
+lang_alternate: ["ko", "en"]
+---
+
+<div class="home">
+  <a class="rss-link" href="{{ "/feed.xml" | prepend: site.baseurl }}">RSS Feed</a>
+  <h1 class="page-heading">IvoryCirrus's Lab.</h1>
+  <p>Ivorycirrus's LAB is a blog that covers to software development.<br/><br/>This blog focuses on experiments on mobile and web technologies. Here is shows you the process of solving issues while developing the software, and sharing the experience gained.
+  </p>
+
+  <br/><hr/><br/>
+  
+  <h1 class="page-heading">Recent Articles</h1>
+  <ul class="post-list">
+    {% for post in paginator.posts %}
+      <li>
+        <h2>
+          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+        </h2>
+        
+        <div class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</div>
+
+        <div class="post-excerpt">
+          {{ post.excerpt }}
+          <p>
+            <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">Read More &raquo;</a>
+          </p>
+        </div>
+      </li>
+    {% endfor %}
+  </ul>
+  
+  <!-- Pagination links -->
+<div class="pagination">
+  {% if paginator.previous_page %}
+    <a href="{{ paginator.previous_page_path | prepend: site.baseurl }}" class="previous">PREV</a>
+  {% else %}
+    <span class="previous">PREV</span>
+  {% endif %}
+  <span class="page_number ">{{ paginator.page }} of {{ paginator.total_pages }}</span>
+  {% if paginator.next_page %}
+    <a href="{{ paginator.next_page_path | prepend: site.baseurl }}" class="next">NEXT</a>
+  {% else %}
+    <span class="next ">NEXT</span>
+  {% endif %}
+</div>
+
+</div>

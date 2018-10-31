@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+{% if page.lang %}<html lang="{{ page.lang }}">{% else %}<html>{% endif %}
+
+  {% include head.html %}
+
+  <body>
+
+    {% include header.html %}
+
+    <div class="page-content">
+      <div class="wrapper">
+        <div class="col-main">
+          {{ content }}
+        </div>
+        <div class="col-second">
+          {% include sidebar.html %}
+        </div>
+      </div>
+    </div>
+
+    {% include footer.html %}
+
+  </body>
+
+</html>
