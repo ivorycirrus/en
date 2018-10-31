@@ -20,7 +20,7 @@ Frankly, this post is not a great jobs such as a development guide or a best pra
 The source code and example code are located in the Github link below.
 
 * **[dl4vanilla.js](https://github.com/ivorycirrus/dl4vanillajs)** : Matrix operations and ANN creation utility written in Javascript
-* **[dl4vanilla.js 예제](https://github.com/ivorycirrus/dl4vanillajs-node-example)** : A multilayer perceptron (MLP) example that can be run on Node.js.
+* **[dl4vanilla.js Examples](https://github.com/ivorycirrus/dl4vanillajs-node-example)** : A multilayer perceptron (MLP) example that can be run on Node.js.
 
 
 ## 2. Create the tools
